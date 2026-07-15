@@ -5,17 +5,17 @@ A vulnerable PHP application created to demonstrate and learn Cross-Site Request
 ## Project Structure
 
 ```
-victims/
-└── csrf-lab/
-    ├── assets/
-    ├── attacker/
-    ├── css/
-    ├── includes/
-    ├── levels/
-    ├── login.php
-    ├── dashboard.php
-    ├── logout.php
-    └── db.php
+- victims/
+- csrf-lab/
+- assets/
+- attacker/
+- css/
+- includes/
+- levels/
+- login.php
+- dashboard.php
+- logout.php
+- db.php
 ```
 
 ## Features
